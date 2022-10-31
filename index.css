@@ -8,6 +8,28 @@
     src: url(fonts/Roboto-Medium.ttf);
 }
 
+@font-face {
+    font-family: "Roboto BoldItalic";
+    src: url(fonts/Roboto-BoldItalic.ttf);
+}
+@font-face {
+    font-family: "Roboto regular";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Josef" ;
+    src: url(fonts/Josef/JosefinSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Josef Exra" ;
+    src: url(fonts/Josef/static/JosefinSans-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: "Josef Semi" ;
+    src: url(fonts/Josef/static/JosefinSans-SemiBoldItalic.ttf);
+}
+
+
 html body {
     margin: 0;
     padding: 0;
@@ -22,6 +44,7 @@ html body {
     background-size: cover;
     position: relative;
 }
+
 .header {
     width: 100%;
     height: 90px;
@@ -58,7 +81,7 @@ html body {
 }
 
 .header ul li a {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     text-decoration: none;
     display: inline-flex;
     color: #fff;
@@ -87,10 +110,9 @@ html body {
 }
 
 .main h1 {
-    font-family: 'Roboto';
+    font-family: "Josef Exra" ;
     text-align: center;
 }
-
 .main p {
     font-family: 'Roboto bold';
     word-spacing: 5px;
@@ -113,6 +135,7 @@ html body {
     margin: 10px auto;
     margin-left: 20px;
 }
+
 .asside1 {
     width: 31.5%;
     float: left;
@@ -121,6 +144,7 @@ html body {
     margin: 10px auto;
     margin-left: 20px;
 }
+
 .asside2 {
     width: 31.5%;
     float: left;
@@ -129,21 +153,43 @@ html body {
     margin: 10px auto;
     margin-left: 20px;
 }
-.asside img{
+
+.asside img {
     display: block;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+
 }
-.asside1 img{
+
+.asside1 img {
     display: block;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+
 }
-.asside2 img{
+
+.asside2 img {
     display: block;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+.wrapperAsside {
+    text-align: center;
+}
+
+.wrapperAsside p {
+    color: #fff;
+    padding: 20px;
+    font-family: "Josef" ;
+    letter-spacing: 1px;
+}
+.wrapperAsside h1{
+    
+    color: azure;
+    font-family: "Josef Exra" ;
 }
