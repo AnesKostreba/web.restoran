@@ -8,22 +8,23 @@
     src: url(fonts/Roboto-Medium.ttf);
 }
 
-body {
-    background-image: url(images/restoran.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    width: 100%;
-    height: 100%;
+html body {
     margin: 0;
+    padding: 0;
 }
 
-.preHeader {}
-
+.wrapper {
+    background-image: url(images/restoran.jpg);
+    background-color: #cccccc;
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 .header {
     width: 100%;
     height: 90px;
-    margin-top: 50px;
     background-color: rgba(61, 62, 61, 0.611);
     margin-left: 0;
 }
@@ -94,4 +95,55 @@ body {
     font-family: 'Roboto bold';
     word-spacing: 5px;
     letter-spacing: 1px;
+}
+
+.wrapperAsside {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.asside {
+    width: 31.5%;
+    float: left;
+    height: 500px;
+    background-color: rgb(92, 89, 89);
+    margin: 10px auto;
+    margin-left: 20px;
+}
+.asside1 {
+    width: 31.5%;
+    float: left;
+    height: 500px;
+    background-color: rgb(92, 89, 89);
+    margin: 10px auto;
+    margin-left: 20px;
+}
+.asside2 {
+    width: 31.5%;
+    float: left;
+    height: 500px;
+    background-color: rgb(92, 89, 89);
+    margin: 10px auto;
+    margin-left: 20px;
+}
+.asside img{
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.asside1 img{
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.asside2 img{
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
